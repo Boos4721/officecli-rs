@@ -1,0 +1,6 @@
+OfficeCLI Rust implementation
+Copyright 2026 BoosAPI
+
+This project is an independent Rust implementation inspired by and intended to
+interoperate with OfficeCLI: https://github.com/iOfficeAI/OfficeCLI
+OfficeCLI is licensed under Apache-2.0.

@@ -1,0 +1,14 @@
+services:
+  officecli:
+    build: .
+    ports:
+      - "26315:26315"
+    environment:
+      OFFICECLI_BIND: 0.0.0.0:26315
+      OFFICECLI_DATA_DIR: /var/lib/officecli
+    volumes:
+      - officecli-data:/var/lib/officecli
+    restart: unless-stopped
+
+volumes:
+  officecli-data:

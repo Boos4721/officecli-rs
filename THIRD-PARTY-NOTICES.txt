@@ -1,0 +1,6 @@
+OfficeCLI Rust uses the Rust ecosystem dependencies declared in Cargo.toml.
+Their license metadata and exact versions are recorded in Cargo.lock and must
+be included with release source distributions.
+
+Upstream attribution:
+OfficeCLI, https://github.com/iOfficeAI/OfficeCLI, Apache-2.0.

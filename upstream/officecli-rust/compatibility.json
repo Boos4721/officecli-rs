@@ -1,0 +1,1444 @@
+{
+  "upstream_commit": "4ba79f0b984e141f57f58d4398ba2df29e8187e8",
+  "source_digest": "c799c244c89b0e0d4524753dcbad1dcd88bcd6e65004c58d65787ae21f8de3dc",
+  "csharp_files": [
+    {
+      "path": "officecli/BatchTypes.cs",
+      "sha256": "1d112cafc5f1c0a23c23ca287f35f9cbf45e3b27e689e1179337a0e9864d3175"
+    },
+    {
+      "path": "officecli/BlankDocCreator.cs",
+      "sha256": "d2a8e89a2503c57d6103659633335c9266af7e60635ff2d97cc982114579c34a"
+    },
+    {
+      "path": "officecli/CommandBuilder.Add.cs",
+      "sha256": "fa0eb20e527d4a1563a8ffb4ddc7b41af5e5e3af07ae03c8e1c1bfd9fac969e4"
+    },
+    {
+      "path": "officecli/CommandBuilder.Batch.cs",
+      "sha256": "dd97f71aa56d7ef10d73b1f1935897b685e1b2456762f33c9ec60b0da24df495"
+    },
+    {
+      "path": "officecli/CommandBuilder.Check.cs",
+      "sha256": "b1866c70dd64db4c9facac320ee4a1b385855def3c22d9af5ba8c07007f4b333"
+    },
+    {
+      "path": "officecli/CommandBuilder.Dump.cs",
+      "sha256": "1382dcde3c25d7f28f686b5617ecdec176bd0c4bd8cfa7af4f5f94249a405524"
+    },
+    {
+      "path": "officecli/CommandBuilder.GetQuery.cs",
+      "sha256": "b0e134b71d37d12f653a93c41f7d64109fb434d18d4e32e349ae9c9a6c542df9"
+    },
+    {
+      "path": "officecli/CommandBuilder.Goto.cs",
+      "sha256": "72e8f8d22e888ea373da2ce7f6afa0b3e35b68d90823194d1ce03586400e0b6b"
+    },
+    {
+      "path": "officecli/CommandBuilder.Help.cs",
+      "sha256": "347f53a2915e2399a4e88bf7747b07f131dddc66fb913575776b6bad26b4d329"
+    },
+    {
+      "path": "officecli/CommandBuilder.Import.cs",
+      "sha256": "a7943a3f74c972858ae96d22ff2f77ac6f2a83c177df14f36f638821334e5ad8"
+    },
+    {
+      "path": "officecli/CommandBuilder.IntegrationStubs.cs",
+      "sha256": "8cefe05248b544570da53dd9a985b3ae43ead1db2dbbd4909b338bdb3b7c6c33"
+    },
+    {
+      "path": "officecli/CommandBuilder.Mark.cs",
+      "sha256": "41caf6fe3a47ad6d342578c75dc5351f729d12b8dadadb293609da071fc3cd68"
+    },
+    {
+      "path": "officecli/CommandBuilder.Plugins.cs",
+      "sha256": "32f25a8ddc59cd3ccc0f9ef63b5eb3dd4557681729c2009ee601006055c52614"
+    },
+    {
+      "path": "officecli/CommandBuilder.Raw.cs",
+      "sha256": "672d3c6105b4bfc760e2dadd4804c16dfdafceb97e1bb360e2aadabe0a3c6099"
+    },
+    {
+      "path": "officecli/CommandBuilder.Refresh.cs",
+      "sha256": "560b4f0cb1b90e63bfcb7763f2fcb20562fc8e5d4b97f13ad9aa5002e9d1214a"
+    },
+    {
+      "path": "officecli/CommandBuilder.Save.cs",
+      "sha256": "9ee58cd719cdeda1d3bf4e7a113209557bc51916b12f40b7dc7b874e4e2db0cf"
+    },
+    {
+      "path": "officecli/CommandBuilder.Set.cs",
+      "sha256": "2d4db98ae4acb691ae785d0eeb700e1cc7cec0ecec8ae800941fa7584d4bcb71"
+    },
+    {
+      "path": "officecli/CommandBuilder.View.cs",
+      "sha256": "ec20d9f494faf063c1b86dd3f66ae812f986bd1f00962df36106154bdb06c6c1"
+    },
+    {
+      "path": "officecli/CommandBuilder.Watch.cs",
+      "sha256": "74f304211817e4c4569ac962053b8f7af30658c80899c71f5f13f2f7077e8f8c"
+    },
+    {
+      "path": "officecli/CommandBuilder.cs",
+      "sha256": "bd63ffb353a63a548faac11a7a37a375022d7d0545a0d939efce22808f1cdd09"
+    },
+    {
+      "path": "officecli/Core/AttributeFilter.cs",
+      "sha256": "c3bf07f7958df5287ef00c96e9d7436523d0dddcf4eee975b0ba94f30ee86be6"
+    },
+    {
+      "path": "officecli/Core/BatchExecutor.cs",
+      "sha256": "b70ff55a2ab000b177be0ce53ac372f44948367854f886b6c2503d9767953fe8"
+    },
+    {
+      "path": "officecli/Core/Bcp47LanguageTag.cs",
+      "sha256": "4f1f020a51feae7c1c9e5d905b70c57c24e18da2fb2da5d36663b1446c352556"
+    },
+    {
+      "path": "officecli/Core/CellPropHints.cs",
+      "sha256": "96970f8c31ec79f0842c065f2f3126c9a0b6b7c3c81fe728e21fa1052e738290"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartExBuilder.Setter.cs",
+      "sha256": "c10924a26422049e56cf37788fdba97d174887ffec2b732c6e36c19f0f2e286c"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartExBuilder.cs",
+      "sha256": "410cd6b17f68ee338bb47a4adad81ce07a7f0ef8601bb7f45f8f18641187bb6a"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartExResources.cs",
+      "sha256": "66c77d42a752ea8882065667d36afcb17b876a2f26f68ec0b4a7e3bc93781ddb"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartExStyleBuilder.cs",
+      "sha256": "aad8edfd0c78ce6c67b0b4539bf3e75547ced01c04100d7f2314e65f8e12e6f6"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartHelper.Advanced.cs",
+      "sha256": "2c5174a4aa3f619343830732b48a266ec09056d595fb67d0a9a0f11a1d35bb62"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartHelper.Axis.cs",
+      "sha256": "a5d152e7901c93b1a2bd78ab31a766acdd4089bd5c92e24b3b6424b588da1a0d"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartHelper.Builder.cs",
+      "sha256": "7c967085fb1104dffdab7080f82c804110e56611161da6b7cb10656b5924f4b6"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartHelper.Reader.cs",
+      "sha256": "f204e0464a1f439630094ce8d0865931a8f1031288cafed33342f5f00848e2b0"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartHelper.Setter.cs",
+      "sha256": "98a9bc2ded833e5982be6dab678c7a9c78b8c3904f349c10939c5b301cfeff7b"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartHelper.SetterHelpers.cs",
+      "sha256": "dcb9b1cf8ece5b33cd0c533ad6ee57591a0ccd5584609b798c4f7b2dbf9f8cd1"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartHelper.cs",
+      "sha256": "05565820b7c0fc4a185ede30226d031c1518d827b125e72caa01dd91281b3945"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartPresets.cs",
+      "sha256": "67763dd211be70aa0d9a5cf1c70cd5282bb3c143c5d8afc76b5e5cb6185d098d"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartSvgRenderer.CxExtract.cs",
+      "sha256": "955c29f8f30a7d636d4d08bae857befa00a0e2b494ac958fcefcd8f2b8110ac3"
+    },
+    {
+      "path": "officecli/Core/Chart/ChartSvgRenderer.cs",
+      "sha256": "22305edbf5bc8196fef44a14c196b82b4ceabbcad219fc207a6e95009ae1bb97"
+    },
+    {
+      "path": "officecli/Core/CliException.cs",
+      "sha256": "d452511460c20f26841d092909aac228d69febd7f0a8838dc904927fdddf2819"
+    },
+    {
+      "path": "officecli/Core/CliLogger.cs",
+      "sha256": "99998e6c8bbaa922ad98af2719a2c9e8306e196681192ce1437b708be47b980b"
+    },
+    {
+      "path": "officecli/Core/ColorMath.cs",
+      "sha256": "d9f11b52493d5456a8b852ee04f445f7fe23df13be7e296d2349d8af8ded995f"
+    },
+    {
+      "path": "officecli/Core/CompoundFile.cs",
+      "sha256": "afbc9ad01c611cabd7b632272e58f93820ca7afb523eabcf67730e7ec438f42e"
+    },
+    {
+      "path": "officecli/Core/Diagram/DiagramCompiler.cs",
+      "sha256": "f0734f015630653403a3692e23cd09a979178738e6976eb9766b5e1b1103a0ca"
+    },
+    {
+      "path": "officecli/Core/Diagram/DiagramModel.cs",
+      "sha256": "9db75a7357e8ee4b2c3378339cb8b8ed45b292d76cc2bc81ac525b8f6cc78809"
+    },
+    {
+      "path": "officecli/Core/Diagram/DiagramStyles.cs",
+      "sha256": "b953bb8124dcc1dffc50060780c371f0cb0fc190688990fada571c832cfbf195"
+    },
+    {
+      "path": "officecli/Core/Diagram/FlowchartLayout.cs",
+      "sha256": "bd6959848c3a46aadcf445490feb9f0c9820aafe3241e6c7ddd04c5b73e01281"
+    },
+    {
+      "path": "officecli/Core/Diagram/MermaidImageRenderer.cs",
+      "sha256": "1492b4d5931aff60d07648f7332c062e2bc798eb810f9378bbf12e6c8b4cbfe4"
+    },
+    {
+      "path": "officecli/Core/Diagram/MermaidParser.cs",
+      "sha256": "2ed0af256724f18ce87f7cc4e2dbf6a9eee07c393827282b6f1b5b617562eca9"
+    },
+    {
+      "path": "officecli/Core/Diagram/SequenceLayout.cs",
+      "sha256": "85db43b9745b25f83f8d18d1959f7b1b99361ad9842d38a3ae285159c550853d"
+    },
+    {
+      "path": "officecli/Core/DocumentIssue.cs",
+      "sha256": "1c4151129a4f7870d5e3b8f4d2ebe3f3515c0d2a3307ecb6973d4255aa4e54ed"
+    },
+    {
+      "path": "officecli/Core/DocumentLimits.cs",
+      "sha256": "44e7e96e5c80532e9a29a9bcf183b670f36229885f519d30559e2303f82894c0"
+    },
+    {
+      "path": "officecli/Core/DocumentNode.cs",
+      "sha256": "1b22e71c152634170f1a123ca093d4a235de1e8440743977440e9b2f019437a5"
+    },
+    {
+      "path": "officecli/Core/DrawingColorBuilder.cs",
+      "sha256": "c0fe619f8864dd282c1e5c129b1f883f3ae0e6709899d0831808f39a7d5b7491"
+    },
+    {
+      "path": "officecli/Core/DrawingEffectsHelper.cs",
+      "sha256": "5dc023764b98a3dc5a768c4c66ef7de28432c68fe79872b08f4909090bd5e060"
+    },
+    {
+      "path": "officecli/Core/EditDistance.cs",
+      "sha256": "9b444a29bfbde1f12b782dc4a0ae6be6cd324ab2339f69cda11f51a9044b9cec"
+    },
+    {
+      "path": "officecli/Core/EmuConverter.cs",
+      "sha256": "442571f92db8330af80dc8baf641f27db53772627e8105c4d0be6055070121c9"
+    },
+    {
+      "path": "officecli/Core/ExcelStyleManager.cs",
+      "sha256": "a580b3faa7c1cab6be1c6d03a8830dac117659ff42f8a32700e740d4845373b6"
+    },
+    {
+      "path": "officecli/Core/ExtendedPropertiesHandler.cs",
+      "sha256": "ff329db5ef823de6b21a77874c18ada86f1fd5fcf837f994eb7fadc75b0b7c79"
+    },
+    {
+      "path": "officecli/Core/FileSource.cs",
+      "sha256": "5d312ad1c4b9a6114e1caf8da78b6607d4bc5859db1b55dcd7cef04734aec404"
+    },
+    {
+      "path": "officecli/Core/FindHelpers.cs",
+      "sha256": "ed5104e159d0c2e3b8577fa7d0eaa146a7ff0386ce6c883f41b3260cbc366596"
+    },
+    {
+      "path": "officecli/Core/FontMetricsReader.cs",
+      "sha256": "243d472cfd93ea0ee569029b156b4e82ffbd480ed210a9d358f25cac57536641"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Complex.cs",
+      "sha256": "0957810fec62db933d1af2a721ce7f63e9b80e789219e4c0aae37762b13e3557"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Functions.cs",
+      "sha256": "1b711d1a23bd85762382fb678c63b581a7ce1b0734a087e55413fc6c25e87bfe"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Helpers.cs",
+      "sha256": "c5724a581b284fc2bc0df5c331cd3bfdc67a5ad01f8fd5cb538f95ca07294e15"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.References.cs",
+      "sha256": "7ddf73bfb6ef2aa48d9f9cb0e780eeba882ca95b06a8bf82d18ea143033739cb"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Regression.cs",
+      "sha256": "56759f66e9cb4e0456eca84ba83a6b0efd20d3bfc788c429b09ffe2368227570"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Securities.cs",
+      "sha256": "a43394c918dbf1facfdbdf9c73a5859188ecdd60a4fa5291d6ea7b94ccc29f58"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Solver.cs",
+      "sha256": "02ebe6238c991c76981411fed76dfd9124676c23337727908831bf98dddfebcf"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.SpecialFunctions.cs",
+      "sha256": "df57d1a2ba6c052abb10dbd8b78b788da5435ade05297586f48e22160cc51cd5"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Spill.cs",
+      "sha256": "3eb5ad8f430683db63315f1afee84658ad524d9a2eeb06c5244b55726931fa41"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.SpillLambda.cs",
+      "sha256": "cebc37106d63eaada3140deb90779a79e9c8172f1a0f72e1f2a1ab76c762d8c2"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Statistics.cs",
+      "sha256": "48824097990acd254fae12e468f770b11d139bf6bf7567cade5a6ffef70e25b3"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Statistics2.cs",
+      "sha256": "39311772f05e84bcdda425183dc91363482f9e3ff71a3abcfc47c5bbd9542d6a"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.Statistics3.cs",
+      "sha256": "d8ec81a62554b3675b68ca0d8c2b3c8897c6a7dfee3e45c9b965fd639a2ff88c"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaEvaluator.cs",
+      "sha256": "547c40df7c17783bb4f6ba547bdb02bc3b65f760de49ed8a363916cab09042bc"
+    },
+    {
+      "path": "officecli/Core/Formula/FormulaParser.cs",
+      "sha256": "3f37479e2226a619d1bbe8238b0dd72b54b02d11aa80af03e1e0f47799ccb22e"
+    },
+    {
+      "path": "officecli/Core/Formula/ModernFunctionQualifier.cs",
+      "sha256": "1c4c29cfeb31416222b51e044195bce139bea2396e8f0c420bfbce308095876d"
+    },
+    {
+      "path": "officecli/Core/FormulaRefShifter.cs",
+      "sha256": "859f910dbb1116848bc2e66a26bd3270a78b931a7cc112342307958dd1fa3ff2"
+    },
+    {
+      "path": "officecli/Core/GenericXmlQuery.cs",
+      "sha256": "7bccafb15bc61efa15e98aacff1ef12f7efdf7dc8fb2abad2c1bae9d2388a63a"
+    },
+    {
+      "path": "officecli/Core/HtmlPreviewHelper.cs",
+      "sha256": "0605e70927e4d40e6b16fb222b51b4fbafd928e54da45db218ef9c82b4d04ec4"
+    },
+    {
+      "path": "officecli/Core/HtmlScreenshot.cs",
+      "sha256": "bc3a4857124c79f1f7bc559c1c3bba6c4e2b2d7ba671a4eab1ae9c83d11a9f41"
+    },
+    {
+      "path": "officecli/Core/HyperlinkUriValidator.cs",
+      "sha256": "5e564ac1cdf0c74afa581c7fd5a2cd72008d40a4f73eac3ba94d86640c17a311"
+    },
+    {
+      "path": "officecli/Core/IDocumentHandler.cs",
+      "sha256": "c81d0c3a1eabfd8f97fa1d5bda2fc521b3a503e0540ddc2f5a33f7b5cc63ccc2"
+    },
+    {
+      "path": "officecli/Core/ImageSource.cs",
+      "sha256": "e825b08cd8c9b9bcb35f0c0d3f0c3c36cfa3c55de6b2baf032ebcaafe2166f0c"
+    },
+    {
+      "path": "officecli/Core/Installer.cs",
+      "sha256": "7275710a896df388c5eb48b2ae0804f4d257acabb4681963e81a895116c94894"
+    },
+    {
+      "path": "officecli/Core/IssueSubtypes.cs",
+      "sha256": "1e312ca583b119cc62dc7c775a2d28810803b8dcc98203e36f382e689e3dd835"
+    },
+    {
+      "path": "officecli/Core/KatexAssets.cs",
+      "sha256": "1b99c7f99038b193184106fef538cc164fbf693967dec9fb74e0d68894100f0f"
+    },
+    {
+      "path": "officecli/Core/LocaleFontRegistry.cs",
+      "sha256": "2e08c158018199d22be8107de8142e95ada55af17a558473c06eef1584cc6a80"
+    },
+    {
+      "path": "officecli/Core/MsysPathHint.cs",
+      "sha256": "f5c7da4fc85a11a9ffaa3b2d79379b4d00fa3fccdbf86edd8a8f30d5ef5ed059"
+    },
+    {
+      "path": "officecli/Core/MutationSelectorGuard.cs",
+      "sha256": "11be1fd9bbb6fbd11499d0fefc318fd322563edebcd35ae3b5fe059a65db680e"
+    },
+    {
+      "path": "officecli/Core/OfficeCliMetadata.cs",
+      "sha256": "74b9a27603c40e9a91e45952592ee99a72a74477655ae070d12873c54ec551f1"
+    },
+    {
+      "path": "officecli/Core/OfficeDefaultFonts.cs",
+      "sha256": "12a7456c491a67add0d30b846090adc757ae52c9b5e5aa3139b05927cd2b40ed"
+    },
+    {
+      "path": "officecli/Core/OfficeDefaultThemeColors.cs",
+      "sha256": "24225dbfb507360a278a1de3f1f408ab7d3728fe5e8047c972cb6b665698a5c0"
+    },
+    {
+      "path": "officecli/Core/OleHelper.cs",
+      "sha256": "2a9f22fe375fcbd08db31709630f06742cb2e46a818897263121b56a3a014832"
+    },
+    {
+      "path": "officecli/Core/OutputFormatter.cs",
+      "sha256": "c6ee34bc59a588e48ed71181ba72e98b8f83a721aadb62d9a2a2e07ece89cf97"
+    },
+    {
+      "path": "officecli/Core/ParseHelpers.cs",
+      "sha256": "5afe0957f95ae0f6bec47aba908c7a5a32654ac35a6f49839edde8012607ec4f"
+    },
+    {
+      "path": "officecli/Core/PathAliases.cs",
+      "sha256": "79f91253e9b9036d841b62b0c5fc378d68bd7fd8c5974461e0a5a9b187fed0c2"
+    },
+    {
+      "path": "officecli/Core/PathIndex.cs",
+      "sha256": "56eb45fed865b01a0979ccd8238bbc20fab4048219c0ca5c01904ce1aae49d1e"
+    },
+    {
+      "path": "officecli/Core/PivotTableHelper.Cache.cs",
+      "sha256": "808c85b7f39eb44c04205f721556c4876fb4d4e8c0492af4fb9602f1b6a7bcb7"
+    },
+    {
+      "path": "officecli/Core/PivotTableHelper.Definition.cs",
+      "sha256": "2a122f627bb7ceca3c2f5522abbc47470ca6e86123603b349784f60b741829ad"
+    },
+    {
+      "path": "officecli/Core/PivotTableHelper.Parse.cs",
+      "sha256": "491ed5d96a0c45d27295da11c2325668c165a19ec55c3ca081c10f770106a350"
+    },
+    {
+      "path": "officecli/Core/PivotTableHelper.Readback.cs",
+      "sha256": "065068b9b79b35069ecd195e712a2d5a7e6a49618a47b7418c19c7408ac6c669"
+    },
+    {
+      "path": "officecli/Core/PivotTableHelper.Render.cs",
+      "sha256": "60716414728651f377125712c5e796619afd48466e6f1e2c00ee3496aecf9f3e"
+    },
+    {
+      "path": "officecli/Core/PivotTableHelper.Set.cs",
+      "sha256": "3c0c8e8e3d20875a57b9d83148c3a607ce23d6b2f715956da3e44b1564974be6"
+    },
+    {
+      "path": "officecli/Core/PivotTableHelper.cs",
+      "sha256": "b7a6b0f60f0e23023c230aa635c7c85128cbb6251187e4bf0f6a01cd5477eca3"
+    },
+    {
+      "path": "officecli/Core/Plugins/DumpReaderInvoker.cs",
+      "sha256": "3dae842e41d58a672c85005c3657ead9f6151e823eae4228a5f653f3174c9b32"
+    },
+    {
+      "path": "officecli/Core/Plugins/ExporterInvoker.cs",
+      "sha256": "3e7eedd0b68788110d3a0c6d423c89c39dba66ecb5500debc3b289b2bb8bad86"
+    },
+    {
+      "path": "officecli/Core/Plugins/FormatHandlerProxy.cs",
+      "sha256": "7e3a246fc3fb6bedd8eff1e1be6a78b701d4cfa025b09766a1dae6e99d6675e9"
+    },
+    {
+      "path": "officecli/Core/Plugins/FormatHandlerSession.cs",
+      "sha256": "af4e4673db0609c9ef30d90f8f00360a8520cd140b71701ebdb7e07a1aa701d8"
+    },
+    {
+      "path": "officecli/Core/Plugins/PluginManifest.cs",
+      "sha256": "0623681fe6265ec39057cbd7d074954e912987264e4bc032cd5dc65fbf832c56"
+    },
+    {
+      "path": "officecli/Core/Plugins/PluginProcess.cs",
+      "sha256": "2ca313ae782567cfb78ccc03c1368ff97d0c3eecb628e5aeb6f5c6fc5acf149b"
+    },
+    {
+      "path": "officecli/Core/Plugins/PluginRegistry.cs",
+      "sha256": "a28d564ff31bf9eadf745699602f83a8afbc601c50840e52a380ddd8cf2fad1f"
+    },
+    {
+      "path": "officecli/Core/PowerPointPngBackend.cs",
+      "sha256": "db279d3f113fbe4879fc77b7c6f3016e673891125e13a06d12215cee7e34c550"
+    },
+    {
+      "path": "officecli/Core/RawXmlHelper.cs",
+      "sha256": "a43b83da7355f3e5090bfd72667cbafe09efc2a83b6b5125911e645d117352bf"
+    },
+    {
+      "path": "officecli/Core/Rendering/IRenderer.cs",
+      "sha256": "c7d2ffdf8203c8b06dad035ef34f0af5e460736001ca9968cde543ce6a87a072"
+    },
+    {
+      "path": "officecli/Core/Rendering/RenderCapabilities.cs",
+      "sha256": "242be6bfcc59a785aeabc236bf14919589e8456533382664d8cde3925da46d0a"
+    },
+    {
+      "path": "officecli/Core/Rendering/RenderOptions.cs",
+      "sha256": "95407acab4ffc925f50282a3f3d49549342f09f9f7c3fdb82a1bcd4f44508fff"
+    },
+    {
+      "path": "officecli/Core/Rendering/RenderOutputKind.cs",
+      "sha256": "67a241a342aab7cb62563996259275b691a1e945f69fc8d6600d5323e6c3a7b3"
+    },
+    {
+      "path": "officecli/Core/Rendering/RenderResult.cs",
+      "sha256": "db8e372af84b1718639b8befa60f4944f9cb66110af3d5601b7dd512b1f0b3b4"
+    },
+    {
+      "path": "officecli/Core/Rendering/RendererRegistry.cs",
+      "sha256": "e33756777198681a75a2028e1706bbf31238f59cc8904ee9bbf210af21f666ac"
+    },
+    {
+      "path": "officecli/Core/ResidentFlushPolicy.cs",
+      "sha256": "d6dc0028060381512c2a620eaf4d9086499de1b2cade80ee37f7758d8fc0d53f"
+    },
+    {
+      "path": "officecli/Core/SchemaKeyNormalizer.cs",
+      "sha256": "34ba2383d0b87643163271dc4980a48bd534245f5e74fc1f972a3cac44ecb093"
+    },
+    {
+      "path": "officecli/Core/SchemaOrder.cs",
+      "sha256": "81410d5edc2284a8597da0312743a087e20d340fcebbda497294220e1a6eb48c"
+    },
+    {
+      "path": "officecli/Core/SelectorCommaSplit.cs",
+      "sha256": "46e8c6329ba37a8b77be92de77ac0ca900f86350d35433e5978cb82e2dbc0d70"
+    },
+    {
+      "path": "officecli/Core/SelectorPositionalIndex.cs",
+      "sha256": "51d5cfc5ac3ffef791230741927bda8a1a9d7a9097b24d8d8817e5642344fd79"
+    },
+    {
+      "path": "officecli/Core/SkillInstaller.cs",
+      "sha256": "2ff4df0ef596052215f146f83427d90398f4a2ad02e5138f9da74e44b06d9c44"
+    },
+    {
+      "path": "officecli/Core/SlideSizeDefaults.cs",
+      "sha256": "9e52684987bba266a84c636d765d7381cec304b7ae9ae8ee61e288df9ef6b71a"
+    },
+    {
+      "path": "officecli/Core/SpacingConverter.cs",
+      "sha256": "51332b4ab8ad8a27f39b646bb8d57791a6290488e2dd76765733df58666e4967"
+    },
+    {
+      "path": "officecli/Core/SsrfGuard.cs",
+      "sha256": "0e7161bc9b6746baef052da0724b63bf34dbb1628b795f86745dcfd7665c3008"
+    },
+    {
+      "path": "officecli/Core/StyleUnsupportedHints.cs",
+      "sha256": "d488570f154776c5768f14e2991655978dabb635bf8f78b62482ed99dfc58be0"
+    },
+    {
+      "path": "officecli/Core/SvgImageHelper.cs",
+      "sha256": "9bb72b9c693b59242e19e5aa65812c20b2a37b34c788bacd40838058f7c5e5ab"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/DarkStyle1.cs",
+      "sha256": "9f4bbfc4ac6c5da4722f42ff337a6f5faaadb6a24f3af2b4c61f62ccceeb325d"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/DarkStyle2.cs",
+      "sha256": "7849c40ca3b81a47c2513c12f082680004f32edb57130beadbd26d72df160686"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/LightStyle1.cs",
+      "sha256": "e8c5ce66697e45ed71f735257f386ab033eedf00d3dcc239c5e04bb87204d66f"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/LightStyle2.cs",
+      "sha256": "e3c9abe6f579b0fa11e34066d145ea40de36ff294c9e17cf4a81860b662ad6c3"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/LightStyle3.cs",
+      "sha256": "c4e14b8ed367abaddebc546ce60fb04e67637683cf40dcbd897541a3b6e2b764"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/MediumStyle1.cs",
+      "sha256": "3817a1701e16a3ecd9c5b2b331578b59c0fcfd8232a434d89497d87e09602ffe"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/MediumStyle2.cs",
+      "sha256": "46487129163998a8098c3eb828c2fe7ffeb3bdfdc500c8dca0aaadfa9041b6aa"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/MediumStyle3.cs",
+      "sha256": "f3e9d31d02837376eb15853ea9831b0dcb7a120248a94a4234020f066ab83ae4"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/MediumStyle4.cs",
+      "sha256": "fdad966503b95e2e5b0b06953cac30bf72d4f86d9475366c1e3eb3b7969ee8f6"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/ThemedStyle1.cs",
+      "sha256": "c3271d50af3c3c44c688bc6a734cba6cb8e0333f67b8d81791b8ed822519918c"
+    },
+    {
+      "path": "officecli/Core/TableStyles/Families/ThemedStyle2.cs",
+      "sha256": "1d1adbc00907e592ef4a6aff73eb0e0f7bc642e17c512f5ce9f6be2b024306e7"
+    },
+    {
+      "path": "officecli/Core/TableStyles/TableStyleRegistry.cs",
+      "sha256": "d2903ba8a8f05302c7436a7c307ca6e5b7d7421ea97c7c6e28dbb2f159554cbb"
+    },
+    {
+      "path": "officecli/Core/TableStyles/TableStyleResolver.cs",
+      "sha256": "de339a103f70654fe5e1067a6b2239c533a7609d51cefe76ee8e725dd1731ada"
+    },
+    {
+      "path": "officecli/Core/TableStyles/TableStyleTypes.cs",
+      "sha256": "e0f30d1322482d4c2bdb6d3c94cea85b4e6a464ed09b87a9cce8dae3badfd56d"
+    },
+    {
+      "path": "officecli/Core/TemplateMerger.cs",
+      "sha256": "b3c1aade72d95a1fb33c1b3d8e77fdafd8c24ae45b8d08a44d8240404d72ba82"
+    },
+    {
+      "path": "officecli/Core/TextEscape.cs",
+      "sha256": "a8ba70e0e1628d4113c8922a1f9432a701c230f8ab4df77bd1e8e5bd64762abd"
+    },
+    {
+      "path": "officecli/Core/ThemeColorResolver.cs",
+      "sha256": "712f3f9ad3fc7e59511ab56b109a95fca6eea8ce93a82a9654e849884c5fc6eb"
+    },
+    {
+      "path": "officecli/Core/ThemeHandler.cs",
+      "sha256": "40e35c135e1c1a489cdfad09ab3d4def6a3be5ba97b68aa980117d4a384fc01d"
+    },
+    {
+      "path": "officecli/Core/TrackingPropertyDictionary.cs",
+      "sha256": "ea99ff3dc00d3a4b0b24f7ae001279624ec2231f8f245c5fa76935362a66142c"
+    },
+    {
+      "path": "officecli/Core/TypedAttributeFallback.cs",
+      "sha256": "1b9d8223c22b5ddf352fc1de7e758c142ff1d5b85442ef66014ecaa986894993"
+    },
+    {
+      "path": "officecli/Core/Units.cs",
+      "sha256": "6c949f127afe5c432a4b0b139984d82c4402f01c8643a5957adecb48406cd44a"
+    },
+    {
+      "path": "officecli/Core/UpdateChecker.cs",
+      "sha256": "02eeeba1b0f45c9b5bb966177e25a0a667127bde21058570cfa501b36ba0b8a2"
+    },
+    {
+      "path": "officecli/Core/Watch/WatchMark.cs",
+      "sha256": "ead680e17f805ec0f84c106610a06b8e2ea2cad8fdc2f507df3a0a17850b0218"
+    },
+    {
+      "path": "officecli/Core/Watch/WatchNotifier.cs",
+      "sha256": "bf3ed5b99bc44eb9f0d493db7f5e623a26e9a92d3526b3b1fce49f29c3503612"
+    },
+    {
+      "path": "officecli/Core/Watch/WatchServer.cs",
+      "sha256": "dfe5d37758780aa0b062a61e164c88c5ed4872b2d297cc966d6a3b880e9bb8a5"
+    },
+    {
+      "path": "officecli/Core/WordHtmlRefresh.cs",
+      "sha256": "734911b1059115b85396a010a8c6dcfc0bd808222dd675112ce9d422a6eff8c0"
+    },
+    {
+      "path": "officecli/Core/WordNumFmtRenderer.cs",
+      "sha256": "205c69940681bb31db8c6a9d045917d7e86dd5aba79a643643ce7eb23ada378a"
+    },
+    {
+      "path": "officecli/Core/WordPageDefaults.cs",
+      "sha256": "9dd38ebe2d2fc76c2e01bfa42e63192d797d8c5c7bccb6f40a5e45c4c2afd1d7"
+    },
+    {
+      "path": "officecli/Core/WordPdfBackend.cs",
+      "sha256": "5ae7ca244b4128043550b2223c2826efd189a9d7857e740df477739e22725d3b"
+    },
+    {
+      "path": "officecli/Core/WordStrictAttributeSanitizer.cs",
+      "sha256": "47c4062ad2feed96657752a39eba14df0ae936903f5b4c5463841b7ddc387af0"
+    },
+    {
+      "path": "officecli/Core/WordTocBuilder.cs",
+      "sha256": "6f5d276758325f0ef5a90a1f080bde07e762a67cd5add8e0a931d3c9f0df9353"
+    },
+    {
+      "path": "officecli/Core/WorksheetBloatFilter.cs",
+      "sha256": "9ae6fe2858c6585aa87884e6b43865d86586dc3819225abbe3836ee78b167189"
+    },
+    {
+      "path": "officecli/Core/XmlTextValidator.cs",
+      "sha256": "a40f6494cd686efcd24cbf667fc19eee1a9fc6d192413ea37c30bb75129978f0"
+    },
+    {
+      "path": "officecli/Handlers/DocumentHandlerFactory.cs",
+      "sha256": "7054372562ba87ec27edd118824159510d8b424279d54789fd4bf27754006af8"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelBatchEmitter.Elements.cs",
+      "sha256": "d507cba792322ea04f6bb1d702d115b9d0ed9383138b28f8e43802563a39517b"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelBatchEmitter.cs",
+      "sha256": "5c54a4dbaad00a07f77cba310faaa4a98f61b48f63fb49459700e558346d08b3"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelDataFormatter.cs",
+      "sha256": "ada13b7a8a0a8453877ce5cd0a62d395dfdf0c49f904a80732b88ad7ce788fc0"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Add.Cells.cs",
+      "sha256": "719e7bb509e09361fdb0055f4bc12881a5e1870b5bdabf9848dd44f398393f6f"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Add.Cf.cs",
+      "sha256": "2f39d6492cb0664085e9f21e42462de9c88ce130e6b4cc73a3a6468e76f55136"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Add.Chart.cs",
+      "sha256": "e5480df6891959bac01631ae283cc34de47842ec1a28102ba082e7ae40459c36"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Add.Drawings.cs",
+      "sha256": "0e525422be7a20995c0a5a443cfaa3f7b056877d0c316042fb13418d0f995502"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Add.Tables.cs",
+      "sha256": "e5a9d8704d38560a27bf09ee3e9c1d603f761a296ad91cb748a59beadf7db107"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Add.cs",
+      "sha256": "8bdc81817ebc87f29a728f74fe38880980da2f305057f173117c4a0fd6656ba0"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.ChartCache.cs",
+      "sha256": "23b10dde84a52bbb57671b3f102d465b3ef75ef8b83f895743d143ede3a1d814"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.CheckOverflow.cs",
+      "sha256": "5aebb159fed3ad9cd471c85914fed5e310513365fb308c72a905e2d2719d3f88"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.DumpSupport.cs",
+      "sha256": "7dae725a9b30e859a4da21a03614f3d638448beace74bac388179c36f3eda3d3"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.DynamicArray.cs",
+      "sha256": "079d5c4c8cec9d53b900568087aa73b1e88b83e1a061a312cb220d03f70df72c"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.FormulaCache.cs",
+      "sha256": "fc04263aeffc22573f1cc86791db16c13cb8f889718140b89fbaee9da06359b6"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.Cell.cs",
+      "sha256": "80c02f4db7149a4f3d93faf2d767230cd769264b965266a8f28b1cabaa1fcfb1"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.Chart.cs",
+      "sha256": "e184d28268ba72aae9b54e506dab4bd6cdaed6bd30065396a3b8a5a1798aa732"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.ConditionalFormat.cs",
+      "sha256": "fcb898c94e1e468cf4b7c8b3280cdcb92657f1eabddf78161c460359404ca965"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.Drawing.cs",
+      "sha256": "1c2277dfd2b55dba6f0a8b13b0fea316c7ecd3499670f54455f637df1a6931e7"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.Node.cs",
+      "sha256": "c6c90e7ac9fd7a03a1c83fa6a1fc317b5a3d311c75c5a5d5ff917a25423e9e6f"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.Ole.cs",
+      "sha256": "65e8f9110b621c63c17e8344b1369679a9a336ed3b7d1d099651f7ef9d21ed3d"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.Sheet.cs",
+      "sha256": "6b7bc73c566f2e14f35d37493c29d2ca00977e086406a91908673151459d956f"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.TableStyle.cs",
+      "sha256": "b0dcfe453810ce16eada6b746e8ce766f0a8b6e30dcfb28d5d1cc25efb9a062e"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.Validation.cs",
+      "sha256": "1b207bcc2be91cf5ece36b3015b73132cf7a19e53624eb34ba80d6c2b2ea16fa"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Helpers.cs",
+      "sha256": "41ad935d1ab23e19d4766c6edbc423446153e86f95fc93a36d9556a53f02cb97"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.HtmlPreview.Charts.cs",
+      "sha256": "8e5c55da4dbc1394de7e5ea72dee2a02ae2986843dbcf84e3c45d4e0c62a079e"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.HtmlPreview.Pictures.cs",
+      "sha256": "0fc807fe0f4f3f82adcaaadc1806415f2387889ce5d826a24ea40cda737f33c8"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.HtmlPreview.Shapes.cs",
+      "sha256": "8ae678478ddd05e94fab82a292e14fc1b84ea3a8ea696d7834e3cd6259088d41"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.HtmlPreview.cs",
+      "sha256": "e638efb33485f8d0efa8b0fba23a689a7b5bffeb15a3bc09615c9dd697a915b0"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Import.cs",
+      "sha256": "58810909a70f91b05258f732b3bd323b642e9ce4e96dc2f83c36736dd6984441"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Query.Cf.cs",
+      "sha256": "8e9ac5acc714fbff450dea1399918fcd51ed9890c311340e8be675a75b29aeac"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Query.RowWhere.cs",
+      "sha256": "b5fa1b1979e51962648f675ca2dbebfb301e2c61c2a941283562ef2074f90c44"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Query.cs",
+      "sha256": "a8636db9766a30688faabfa1fb60f169f5824347078b45c15f7b4e61f48c56ba"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Remove.cs",
+      "sha256": "6b17e47504e73ff22716e9b2e79a9099c88ac3b0ed390064b13968106f34117c"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Selector.cs",
+      "sha256": "9d2f85204e5ab44d72390ec5ed12718ecb4069b6c4d57e102c8c07296779340a"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Set.Cells.cs",
+      "sha256": "dd2e4ed41b1d93afad7f67fcee641c9070813d13889ec1afba2ba56ed140f882"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Set.Charts.cs",
+      "sha256": "42204f219e1d1c6c4b13154738a1f7c31302eb3bb957692eaff38d96bf1150df"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Set.Drawings.cs",
+      "sha256": "34feb87ce9ca20446c76695e00ef78b4e4d3f7f7cfcd77b8cad096ee94709210"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Set.Ranges.cs",
+      "sha256": "0bee0c4eb1ee9ca3cc92acf154fe2fbeff0fbf9eb5798c845eba6c21ac416770"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Set.RowsCols.cs",
+      "sha256": "97e5cc8b538273ca081919f1a0502c060e2a010f57b2bb6f482aaa4d71c8253d"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Set.Sheet.cs",
+      "sha256": "bdbaf64d8993f6e6eb1e3c2ea701e9f28077b490071d6fa57d82850516345801"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Set.Tables.cs",
+      "sha256": "4eb0a744d2ccc4d644bd921febe865ff574a01acfc62419dd52f2e82aa594ba6"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Set.Workbook.cs",
+      "sha256": "5651700544a10c455633bd81cd8ce429d8751eae5edf21c6b6430401e1c7c9d7"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Set.cs",
+      "sha256": "9b39a5430b47ffe9493e52557e4430c4013975e3f20bfa9ed5e1fdc4d80580c5"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.SheetShift.cs",
+      "sha256": "a0d2be49d4999a605f8fa47a140318b5ed9c774232fa220c9ad9bdc35be20574"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.Slicer.cs",
+      "sha256": "37dd7eaa98e16e96b9b57f777442db60ca712a5c17b4052a51bf80250a50b712"
+    },
+    {
+      "path": "officecli/Handlers/Excel/ExcelHandler.View.cs",
+      "sha256": "34f2fc47561a0acedb46ed3201f78c1695b5cf8f5ca880f69252bf48c2e5ac15"
+    },
+    {
+      "path": "officecli/Handlers/ExcelHandler.cs",
+      "sha256": "362d6a1043127f930f6260c4dc95052737731b78630c00be3feec1da83623371"
+    },
+    {
+      "path": "officecli/Handlers/PowerPointHandler.cs",
+      "sha256": "3327c9722aa59bb3e06530cc8c4131199e3976d49eaf94f5d91e62550ef3c72a"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Add.Diagram.cs",
+      "sha256": "aeb0be86e49c5e18b0a0968667d80820caab03fb2fa9e3f0f39551d9ff391a75"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Add.Media.cs",
+      "sha256": "4939a3376601527a1d3197a18d5de326efa7a909e16ff7686f1f339c94661b7a"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Add.Misc.cs",
+      "sha256": "393eb62276cf989e0b9bafd7810307e45ed74165abc90d0d8f54329685842fc3"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Add.Model3D.cs",
+      "sha256": "6082ebba0959d0981692f34614839ffb1bcfadb83e56ad19e4723219720b07ce"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Add.Shape.cs",
+      "sha256": "adc2d544665e637a2fdf632d8435556ad23934e0a94c510965f2247463cdf181"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Add.Slide.cs",
+      "sha256": "491fac9eb2bbd93124f154e17ff364f6963acffef34a5559bf72eada04a9375f"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Add.Table.cs",
+      "sha256": "c7cfbea0c668000a7910a92b1f2f05a7d3fef40067d3628fb6eb65e4299035fa"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Add.Text.cs",
+      "sha256": "a6dee5b2fc18fb1a3e9e4c30215e9c731cbb51474051f3a62d2f4afed9f9953e"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Add.cs",
+      "sha256": "4ad1fe4d05e91c212d9241effef987ceec3f878886eb69b934e8f272ce8c809f"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Align.cs",
+      "sha256": "2ce94d84602df416127e45ebc69be9454b7e7a186ca231c66c38e01fb0ce4501"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Animations.cs",
+      "sha256": "e1782e1b318a89c4305c7e355376d05dc5cf880be44fc0fd92712b8b935a4944"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Background.cs",
+      "sha256": "b9ef01807b7d0c622baa99357ecf181f42954caaf5533991029c8934da48b4fd"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Chart.cs",
+      "sha256": "d0c802089f3d2b646801d62da21f676606f62fbfa05520245edd43d84a243bd2"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Comments.cs",
+      "sha256": "1a84fcdba2333e71af3a8b9e74b3e26b119bca432f844c36a7aeb4fc6e1b43e9"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.EffectTemplates.cs",
+      "sha256": "8a557d6e0dfc9e42e3691a70eb79aa2c57880160b53026eea57c5e971d5ca996"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Effects.cs",
+      "sha256": "77d7ac6dd2936cd76bf5e35baf636c4e53f08c77286ecc95e029dd94194aea6b"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Fill.cs",
+      "sha256": "91727b3cfeebe31b1ff7c248d78eef595e5f9c7e229f73d02935be29b0e7f7b9"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.FindReplace.cs",
+      "sha256": "b1c9867b64ef4d73a2f6e275efc1ab7bd97dbfaeb415a9253b251f55e1b62ea1"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.Geometry.cs",
+      "sha256": "cb7a5057213fa42232eb36f7446835a1c8d7414b931f7d7fa6e46443ec7c3182"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.Ole.cs",
+      "sha256": "d6fbe1d2bc3cf24c7bfa1370a6b532a2cc04388f2081acca214776287f20789f"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.Path.cs",
+      "sha256": "8371baa39847085472672a7a0071326654845101142971bacabf65357d77af2c"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.RunFormat.cs",
+      "sha256": "778bb91be46f1acc22b5a0ff7860237c1449d1f069ef271492715bee7cf1a93f"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.ShapeId.cs",
+      "sha256": "58b81bb139aece30baeb89bb62c5ad9adb718d745a111427315e22ef46393039"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.Table.cs",
+      "sha256": "a9def73640dbd1f4ddc2a4d5af7a2156af0dd343951fe3efcde6e312453bdb5e"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.Text.cs",
+      "sha256": "0749db30714074f6f2c8e422b270e010f9d3e45d6d892444642d1d043f82f91b"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.Transition.cs",
+      "sha256": "26efccf052a08f861150a1d73ec732bfabd73d1d6c93dadd0666cf5896d2723e"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.Zoom3D.cs",
+      "sha256": "05299cf1aa0c2b2366a9fc5be116f3278d6547daa5a553444a4693df2d1a4e30"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Helpers.cs",
+      "sha256": "66810f10dd5ee43f7a092bfa9240db0fd621d256df871b93825de7aecd9bae48"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.HtmlPreview.Charts.cs",
+      "sha256": "6b760b62299afa1f86ef25ea09ddb1a63aea87582ad7bfd7d1f5400ba0aacdcb"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.HtmlPreview.Css.cs",
+      "sha256": "3ff823dc95025d84f7cf6d899cee9e3b25258f9f7295e801978d861708c37350"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.HtmlPreview.Shapes.cs",
+      "sha256": "281ec5ec35eba0ee0b9a2364baceaccd656cdae59aeba0473f4791ed6a3ba1bc"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.HtmlPreview.Tables.cs",
+      "sha256": "471d6506853b6f9a0307c32c801053e8710306868df98d65bec0b69fb547b660"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.HtmlPreview.Text.cs",
+      "sha256": "3d926e1429860dd335635b60510df50e41d48da5b9330131875a3488578bd7b4"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.HtmlPreview.cs",
+      "sha256": "6167286cdfa0764dcdf31739a3beb02dad2079beff9c9721b400c559b8e89b51"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Hyperlinks.cs",
+      "sha256": "7ed587a6f093b4c66a43d5fe79bee133775770bbde409c36750aff9a727f5ca4"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.ModernComments.cs",
+      "sha256": "7723687bba17157afd4822269358769f7c77e75427e5113610ea2a020b64e592"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Mutations.cs",
+      "sha256": "0c14dd8dfdd1f7bd2ee9736d4e10503bdd5804b03993983059328028f6b1dd4c"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.NodeBuilder.cs",
+      "sha256": "a1b31a248332260cebdd2d52adf83f6f1473ee3b39b6ae435e7144e5d9b2ff4b"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Notes.cs",
+      "sha256": "54d5da3fd164eb5241ed53ae0cfa70213df78620818e567693ea32e6a27f9757"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Query.cs",
+      "sha256": "a48a1852919d92a771b595bda738e3833fffc464ddcdf5b0afa373369e5f0a19"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Resolve.cs",
+      "sha256": "8e3182f40649d82ae6217f2739616d915d5a917c07a871852d9e4d65e8b49746"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Selector.cs",
+      "sha256": "b662e0b30c5a67310b8d3984b917bf67103627baa541ea05331946245d9a72bd"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Set.Chart.cs",
+      "sha256": "c9ec304702a5d43866f390b24bc19d2e61b26eb8d5dbc0e1f4f6b12e31685f1a"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Set.Media.cs",
+      "sha256": "0dfdc6571515cd743a05889ac8fa20f4dad8c123f30d002b5cc4824eb278b7f0"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Set.Presentation.cs",
+      "sha256": "8b560e29a0fa3c1a0aca80aeb5fc3419c44f5944bae1d51481e3463736261e4b"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Set.Shape.cs",
+      "sha256": "bb21c2b271aecb51645a926d7805bcc7bddc564188a1fce2a3c998abb1304c16"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Set.Slide.cs",
+      "sha256": "5527c0efc81819438679981c5588fa120e835fafdfc9aa4f8375419e35be8c15"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Set.Table.cs",
+      "sha256": "e174a06ac0587b95898718c7fa80e154e31ebea114ad3c3e24ac130d99003588"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Set.cs",
+      "sha256": "90657a681ac639f933759de10a47f49e3ec94d0de41d33bdd0e260ed86c71212"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.ShapeProperties.cs",
+      "sha256": "e47b97788ff8b0058cfea316d9aa0105b8d86145a761c66297e5b4265e162af1"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.StyleList.cs",
+      "sha256": "022458a48975529d869644d5da2993ebb122f375674d45033a60701cbaaeb13e"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.SvgPreview.cs",
+      "sha256": "a3255812934b490b17346ab8e250ddaa712ee23486119dd205c11a9c3204aa2f"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.Theme.cs",
+      "sha256": "a886952d165b0fd8dbb1d81a32ddfda7c6db2a98b732df1e19c8c9fdfa266345"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PowerPointHandler.View.cs",
+      "sha256": "12878f6e0e5dacb4f7b8ced722860858928097b979263594ade638fb286a6647"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PptxBatchEmitter.AuxParts.cs",
+      "sha256": "594992b9e99c9e39d9ef65350305456842668bd677a9b772d04792381b115c35"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PptxBatchEmitter.Charts.cs",
+      "sha256": "c175cc5e63c3ee73c1d53aebd54e5f86842f7ba82bb9aa22a90886eb09072ca4"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PptxBatchEmitter.Filters.cs",
+      "sha256": "2712f03268ad8af3993dabca14dafeed3543e32d51352c2398b2ac3ec3c40d0a"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PptxBatchEmitter.Media.cs",
+      "sha256": "819227b6953e1a02be53ccaaeb40670a1b6f1393e86732e116f86400e366cf0c"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PptxBatchEmitter.Notes.cs",
+      "sha256": "9205efc1f7dd38ee5a59fd48ef5a1a9ac5a1361dd6200c9c9dd2a05d9205ff6a"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PptxBatchEmitter.Resources.cs",
+      "sha256": "487d25bfe34180f8666813981877784cd256befb01f9662e6cab9f2653645eb6"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PptxBatchEmitter.Shape.cs",
+      "sha256": "e31476ab8d6520c02b3bbde80be133d38ef2ea3d0bcf3959d27fc47a31661ff8"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PptxBatchEmitter.Table.cs",
+      "sha256": "edb46af986fdc3acad009af2384a1fbef5ad9a400265330749a145f67c1a68a1"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/PptxBatchEmitter.cs",
+      "sha256": "7d428b538bb7d70d3eca60cebcbe0ec71544e1c95290a6237f2f3788b22f0ecc"
+    },
+    {
+      "path": "officecli/Handlers/Pptx/SpacingPercentExtensions.cs",
+      "sha256": "a0945d49940c4518541b833c8d1b98b03215164a4f6e03daf3aab6b5c9a27bda"
+    },
+    {
+      "path": "officecli/Handlers/Rendering/BasicRenderers.cs",
+      "sha256": "75bb468d01276c826d5a29d3bef4545c6274a0f7616ce5eb346484916f60b100"
+    },
+    {
+      "path": "officecli/Handlers/Rendering/HandlerRenderInput.cs",
+      "sha256": "ec7725ee4c67620596a6d69bfcba36c13aa68b9aa328f488fc0bbbb589a1905f"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordBatchEmitter.AuxParts.cs",
+      "sha256": "a2140f6d78fe6210db0d0e1f37112d08acf5dd1cdb1f74e049ed86c7ac4ae9eb"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordBatchEmitter.Charts.cs",
+      "sha256": "fef8b13c3d3489136be74c9d170062b8bf7170a50bd30f504ed3e20035b78924"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordBatchEmitter.Fields.cs",
+      "sha256": "cfa8de2e919f877cbd3bb6f62ee35e7cad802c288241c53112b84bc107654c98"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordBatchEmitter.Filters.cs",
+      "sha256": "3b5e689e1d8422fc6d31fc2cd23ddbd3a858f33990dee7f717ca4d5cfb83d3ae"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordBatchEmitter.Paragraph.cs",
+      "sha256": "f3c3f2c8133f0cb3894c067f1b9cee53871ea9601a4ce5874910b4e0832c72f4"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordBatchEmitter.Resources.cs",
+      "sha256": "846fca665a3e9252321d9a3e1146a908d3e0f349d6758894a9fe365f49679efb"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordBatchEmitter.Table.cs",
+      "sha256": "c5aa850af9a949d28d0de0c53beb836f9115bd5171bf39034db5f874ef5de300"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordBatchEmitter.cs",
+      "sha256": "3e2fea5e4c271bd3267cf9695acb682a3a07bf1e7b93a3c5fc11cb0ad9d919b1"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Add.Diagram.cs",
+      "sha256": "7e670c9e53a4600bed7fee9a2d499d0611e1ae1f286bcd2d1acf39a4d5d67ac6"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Add.Media.cs",
+      "sha256": "e89764e862e3295473ccece9cb033c4d7114d3ee702e68dd55f007ddcb4a861e"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Add.Misc.cs",
+      "sha256": "c66078ea3aefb6176ca2071e028ad184ed11cdff854a765f072c26a4d661b54d"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Add.Structure.cs",
+      "sha256": "0449610470024bb43daa36de5f4cc454f643b6e37b7cd3342d1d27ec32fc89cc"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Add.Table.cs",
+      "sha256": "ea56649213d9a9fac2cdb1c2df7a8d458d189e69d38ac4905a234c1f641d7a5f"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Add.Text.cs",
+      "sha256": "6f27dcc078c2e0620c2c73004d37fdc72a785d4aae19905fe526b9b3135bfe55"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Add.cs",
+      "sha256": "274e8646f392d35b137d78ad1c7fee205f8b0a180ce3e4952987b55baa2fd637"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.CommentsExt.cs",
+      "sha256": "bb719cc564c5ed5d8dc9c9971e4cb09d48333ce9e196453fadb493094791bb41"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.FormFields.cs",
+      "sha256": "7c06d057b003843bb4b763c07df403471ea20baf799c846d0be8a3ae0f6e4cc6"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.Chart.cs",
+      "sha256": "af1891e4ae62b938307bbc83e82e977d5290f0924c24134c909a0d6b27745913"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.Field.cs",
+      "sha256": "f314c355d2dd94438044c105ff950712350839f123f569be6eda63bbbe14e936"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.FindReplace.cs",
+      "sha256": "b7dd435db10f7576a46a9d1896ec2a9ac6c47390e7ce557ba4a3b7390dab0eab"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.HeaderFooter.cs",
+      "sha256": "86c4a6550b361a0545c578ddb968486c7a5c813472f2001d74be99a87ea82e72"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.RunFormat.cs",
+      "sha256": "b08a2d02e03805591e0583acb83e7a3eea36bc6bb75b5345c66c16feb67da18c"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.SectionTable.cs",
+      "sha256": "0caf07f1265f51316010f96515e34e177f94c80bf8f63cbd9df2e21297de1c77"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.Structure.cs",
+      "sha256": "6506614714cffcaa57c0b15dea9564fcd98a752fe87c8990bc5c64ceee1f416f"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.Style.cs",
+      "sha256": "472a8e7622695bb58b93767724261b5d80dea4c7e9ebbce929bd52b9871ab5d5"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.Text.cs",
+      "sha256": "2f0916acc250a9956690d41cb6a069c0e166043e25a5a84cec02dbd44c689a15"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.TextEffect.cs",
+      "sha256": "0ff5d1eff6df2d2b711a29f62fd49c18d61409f113787bb51a475411c90ee531"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Helpers.cs",
+      "sha256": "46a72a6654c27e88026ba70639e832902cfd450eb99f191204f5e17679fdcd76"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.HtmlPreview.Charts.cs",
+      "sha256": "a2637f4b560920ddbc812bd1c22e565f1970c512a36222370a110b099eeac21e"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.HtmlPreview.Css.cs",
+      "sha256": "579b5057bafe43db9ba071d35100631fa15c3ca2aa13cf925ba39a8fdc23fbb9"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.HtmlPreview.Markers.cs",
+      "sha256": "9f0011d6910b637176dbdee90075d154a0d7d98e0a4f51bf2e951fe889a8b305"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.HtmlPreview.Shapes.cs",
+      "sha256": "45cb33e2e0b17c6d7752a4ffbf6fd6554c9852e3392af03004db98d8c2845c1b"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.HtmlPreview.Tables.cs",
+      "sha256": "8b20e33fe47b7c0d7aa9dc48a9f63fc3b0afca60fa4ad345dd0b1d3e466e2ad4"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.HtmlPreview.Text.cs",
+      "sha256": "53208c212cadc3e6d3cb62f51e075b3aa5bbe5ac765ffbb4b5d17bb8044c6ac7"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.HtmlPreview.cs",
+      "sha256": "053f82e46f266a121fc25ab08fcae4eb90261620ab7d53e4ded3b88c165afdbd"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.I18n.cs",
+      "sha256": "8b69451b2dc69ac8a14f2d102d6de1ebc5d6b41b39bc1ee94a493729f3a198b2"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.ImageHelpers.cs",
+      "sha256": "47d5a2d65fb21377b22e3eff11ceb3a0a86fbd4f132903c832f8013ec13e5473"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Mutations.cs",
+      "sha256": "3d74e22010bf6b8bc6dca89e19cf67e09d2ff4fee82765f004f174af94c285cc"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Navigation.DocSettings.cs",
+      "sha256": "b00b6025d62749fe6aca951e4826b4437118cd4d05623e134de9c484d2881095"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Navigation.cs",
+      "sha256": "c6253a9709e8eb1d7a5423a406ff8d69f93f8d650cfde1f49b7556e2291a4b54"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Query.cs",
+      "sha256": "128bdde96e262d9cf1564cea69e7aaca50d9a8820675aafaab0de88b0fd87a82"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Selector.cs",
+      "sha256": "40f58376c578f7f105b9d6a5e33783d2ba99ac90c94c30cd158cae0c088a4aa7"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.SeqEval.cs",
+      "sha256": "9abce899651c63891c154aedaf065e3d1748f1a8b9e0b3b6c50824db31be4715"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Set.Compatibility.cs",
+      "sha256": "704b2450bccc7a644a94436b5551e32ed3e530c4f16d67c92cc96d16f1ae8161"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Set.Dispatch.cs",
+      "sha256": "b4cb4b920f52e0f16795d2c8571d4bf4b286befde7c7dfcf8feaf90b05772b74"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Set.DocDefaults.cs",
+      "sha256": "4b1a5c1927c5c662b64cf147cc7e9d9ab51f4ee32b1f202c77c1c1f526bd5268"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Set.DocSettings.cs",
+      "sha256": "7f7546ebcc0c07839bf182b00496a0f25311ea928adbbadf73ebafd4a296b2a3"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Set.Element.cs",
+      "sha256": "9c7e1d819cfbe3bab4de700d529e860d1d140613b5cca67ffde6d82f8c779edd"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Set.Revision.cs",
+      "sha256": "7e93025750b199b9ed3cd79278e36903e2123b3844511e883f66d17f967b69eb"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Set.SectionLayout.cs",
+      "sha256": "f6ae19fde52a1eeae9068b4003e4afc456631817b8c97d9cdaca9709a49ba7e7"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.Set.cs",
+      "sha256": "4519dcb89e6dd808fe26c5a7d5d2d0ccb692926a3dd3a0c0d3c13d28988cf36c"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.StyleList.cs",
+      "sha256": "84b39bc3b14354e1b83eeb3e83a353c3fb096145fa3156422b9331b0a180b754"
+    },
+    {
+      "path": "officecli/Handlers/Word/WordHandler.View.cs",
+      "sha256": "995bd3678704eaf7859c67e794b9b6779814285fe334a526275ca93fd968d31b"
+    },
+    {
+      "path": "officecli/Handlers/WordHandler.cs",
+      "sha256": "548a45da5e2e9a6d94cec11f3fafe437200a31cba50d0243ef61d8d0336b12bb"
+    },
+    {
+      "path": "officecli/Help/SchemaCrc.cs",
+      "sha256": "75343bcdff604f143b41d1c22420ff85015ee1dfbe13228800baf721242dd3ad"
+    },
+    {
+      "path": "officecli/Help/SchemaHelpFlatRenderer.cs",
+      "sha256": "6f92de35cdfddd8b2cf632a99e0fc63c963b37c65a790c2def94bb42494e0b51"
+    },
+    {
+      "path": "officecli/Help/SchemaHelpLoader.cs",
+      "sha256": "951cc0554f734ef417a97e0cdd521bb9ecc433f2c44c6c0446dca9910788d158"
+    },
+    {
+      "path": "officecli/Help/SchemaHelpRenderer.cs",
+      "sha256": "f3c9cd4cf95bfd4ebcb81508fd509a2884df948f55595786e5149dd8cbe749d8"
+    },
+    {
+      "path": "officecli/McpInstaller.cs",
+      "sha256": "7151dd41c60567d92ee9c7b8ef81c76c2573a1dfbba991409504d1d01d806272"
+    },
+    {
+      "path": "officecli/McpServer.cs",
+      "sha256": "bd4c734d6b4e6f53977ff6097ac72ad55a651e472ece7b04abaef106a31e0aa9"
+    },
+    {
+      "path": "officecli/Program.cs",
+      "sha256": "0edddd4b1f7e5e104ae49daa2dd7647f670e22f60c1625dae0cde430c850f473"
+    },
+    {
+      "path": "officecli/ResidentClient.cs",
+      "sha256": "b9d316b8235e6caaceccff2f1afac00c9f1483d0fce93684196ab1914e8aa447"
+    },
+    {
+      "path": "officecli/ResidentServer.cs",
+      "sha256": "61c53ae6c05261099c86587e672a8a20801d871cd4b539e5a6c9ce48eb2d9eef"
+    }
+  ],
+  "csharp_type_count": 432,
+  "upstream_commands": [
+    "__resident-serve__",
+    "add",
+    "add-part",
+    "batch",
+    "close",
+    "create",
+    "dump",
+    "get",
+    "help",
+    "import",
+    "info",
+    "lint",
+    "list",
+    "merge",
+    "move",
+    "open",
+    "plugins",
+    "query",
+    "raw",
+    "raw-set",
+    "refresh",
+    "remove",
+    "save",
+    "set",
+    "swap",
+    "unwatch",
+    "validate",
+    "view",
+    "watch"
+  ],
+  "rust_commands": [
+    "add",
+    "add-part",
+    "batch",
+    "close",
+    "create",
+    "dump",
+    "get",
+    "get-part",
+    "inspect",
+    "list-parts",
+    "merge",
+    "move",
+    "open",
+    "query",
+    "raw",
+    "raw-set",
+    "remove",
+    "remove-part",
+    "save",
+    "set",
+    "set-part",
+    "swap",
+    "validate",
+    "view"
+  ],
+  "missing_rust_commands": [
+    "__resident-serve__",
+    "help",
+    "import",
+    "info",
+    "lint",
+    "list",
+    "plugins",
+    "refresh",
+    "unwatch",
+    "watch"
+  ]
+}

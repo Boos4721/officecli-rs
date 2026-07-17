@@ -1,0 +1,25 @@
+[package]
+name = "officecli"
+version = "0.1.2"
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Command-line OOXML document automation using OfficeCLI Rust core"
+repository.workspace = true
+homepage.workspace = true
+keywords = ["office", "ooxml", "cli", "docx", "xlsx"]
+categories = ["command-line-utilities", "text-processing"]
+readme = "README.md"
+
+[[bin]]
+name = "officecli"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+base64.workspace = true
+clap.workspace = true
+officecli-core = { path = "../officecli-core", version = "0.1.1" }
+quick-xml.workspace = true
+serde.workspace = true
+serde_json.workspace = true

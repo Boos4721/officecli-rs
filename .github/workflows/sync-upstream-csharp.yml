@@ -1,0 +1,87 @@
+name: Port upstream OfficeCLI C# to Rust
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Upstream branch or tag to synchronize
+        required: false
+        default: main
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      UPSTREAM_REPOSITORY: https://github.com/iOfficeAI/OfficeCLI.git
+      UPSTREAM_REF: ${{ inputs.ref || 'main' }}
+      SYNC_ROOT: upstream/officecli-csharp
+    steps:
+      - name: Check out Rust port
+        uses: actions/checkout@v5
+
+      - name: Fetch upstream C# source
+        shell: bash
+        run: |
+          set -euo pipefail
+          upstream_dir="$RUNNER_TEMP/officecli-upstream"
+          git clone --quiet --depth=1 --filter=blob:none --sparse \
+            --branch "$UPSTREAM_REF" "$UPSTREAM_REPOSITORY" "$upstream_dir"
+          git -C "$upstream_dir" sparse-checkout set --no-cone \
+            /src/ /build/ /schemas/ /skills/ /officecli.slnx /LICENSE /NOTICE /README.md
+
+          rm -rf "$SYNC_ROOT"
+          mkdir -p "$SYNC_ROOT"
+          for path in src build schemas skills officecli.slnx LICENSE NOTICE README.md; do
+            if [[ -e "$upstream_dir/$path" ]]; then
+              cp -a "$upstream_dir/$path" "$SYNC_ROOT/"
+            fi
+          done
+          git -C "$upstream_dir" rev-parse HEAD > "$SYNC_ROOT/UPSTREAM_COMMIT"
+          printf '%s\n' "source=$UPSTREAM_REPOSITORY" "ref=$UPSTREAM_REF" > "$SYNC_ROOT/UPSTREAM_SOURCE"
+
+      - name: Generate Rust compatibility layer
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/port_upstream_csharp.py \
+            --source "$RUNNER_TEMP/officecli-upstream/src" \
+            --rust-cli crates/officecli-cli/src/main.rs \
+            --commit "$(tr -d '\n' < "$SYNC_ROOT/UPSTREAM_COMMIT")"
+
+      - name: Format and test generated Rust
+        shell: bash
+        run: |
+          set -euo pipefail
+          cargo fmt --all -- --check
+          cargo test --workspace --locked
+
+      - name: Commit with project identity
+        id: commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Boos4721"
+          git config user.email "boos4721@icloud.com"
+          git add "$SYNC_ROOT" crates/officecli-core/src/upstream_compat.rs upstream/officecli-rust
+          if git diff --cached --quiet; then
+            echo "Upstream C# snapshot is unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          upstream_commit="$(tr -d '\n' < "$SYNC_ROOT/UPSTREAM_COMMIT")"
+          git commit -m "chore: port upstream OfficeCLI C# to Rust $upstream_commit"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Push Rust port branch
+        if: steps.commit.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git push --force origin HEAD:refs/heads/automation/port-upstream-csharp-to-rust
+          echo "Updated branch: automation/port-upstream-csharp-to-rust" >> "$GITHUB_STEP_SUMMARY"
+          echo "Create or update a review PR from automation/port-upstream-csharp-to-rust."

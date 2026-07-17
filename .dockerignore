@@ -1,0 +1,7 @@
+.git
+.github
+target
+release
+Dockerfile
+docker-compose.yml
+*.swp

@@ -1,0 +1,21 @@
+[package]
+name = "officecli-mcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "MCP stdio adapter for OfficeCLI Rust OOXML automation"
+repository.workspace = true
+homepage.workspace = true
+keywords = ["mcp", "office", "ooxml", "ai"]
+categories = ["command-line-utilities"]
+
+[[bin]]
+name = "officecli-mcp"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+officecli-core = { path = "../officecli-core", version = "0.1.1" }
+serde.workspace = true
+serde_json.workspace = true
